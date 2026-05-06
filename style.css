@@ -1,0 +1,84 @@
+/* style.css - Identidade Visual Colégio Imperial */
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #2c3e50;
+    background-color: #f9f7f2;
+}
+
+header {
+    background-color: #1a2a6c;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 5px solid #b8860b;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #f4f4f4;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1a2a6c;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.hero {
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1541339907198-e08756ebafe3?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-top: 4px solid #b8860b;
+    text-align: center;
+}
+
+.highlight {
+    color: #1a2a6c;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer {
+    background: #1a2a6c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
